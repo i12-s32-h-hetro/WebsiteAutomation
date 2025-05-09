@@ -32,7 +32,7 @@ try:
     wait.until(EC.element_to_be_clickable(add_btn)).click()
     print('Random product added to cart')
 except Exception as e:
-    print(f"❌ Failed to go to cart: {e}")
+    print(f" Failed to go to cart: {e}")
     driver.quit()
     exit()
 
